@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <body>
+        <h1>반복문 연습문제2</h1>
+        <script>
+            // (1)
+            // var sum = 0;
+            // var n = 2;
+            // while (n <= 100) {
+            //     sum = sum+n;
+            //     console.log(n, sum);
+            //     n=n+2;
+            // }  
+
+            // (2)
+            // var sum = 0;
+            // for(var n=2; n<=100; n=n+2) {
+            //     sum = sum+n;
+            //     console.log(n,sum);
+            // } 
+
+            // (3)
+            // var sum = 0;
+            // var n=1;
+            // while (n<=100) {
+            //         if(n%2 === 0) {
+            //             sum = sum+n;
+            //             console.log(n,sum);
+            //         }
+            //     n++;
+            // }
+
+            var sum = 0;
+            for (n=1; n<=100; n++) {
+                if (n%2===0) {
+                    sum = sum+n;
+                    console.log(n,sum);
+                }
+            }
+
+
+            document.write('1에서 100까지의 짝수의 합은 ' + sum +'입니다.');
+        </script>
+    </body>
+</head>
